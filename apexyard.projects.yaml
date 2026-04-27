@@ -1,0 +1,28 @@
+# =============================================================================
+# ApexYard Portfolio Registry — Remofirst
+# =============================================================================
+#
+# Registers all projects under ApexYard management.
+# Skills like /projects, /inbox, /status, /tasks aggregate across this registry.
+#
+
+version: 1
+
+projects:
+  - name: cdr
+    repo: "remofirst/centralized-data-repository"
+    workspace: "workspace/cdr"
+    docs: "projects/cdr"
+    status: active
+    tier: P0
+    roles:
+      - tech-lead
+      - data-engineer
+      - platform-engineer
+    tags:
+      - data
+      - internal
+      - python
+      - typescript
+      - hono
+    ticket_prefix: "CDR"
